@@ -15,7 +15,8 @@ server:
 ---
 spring:
   profiles: test
-  application: microservicecloud-config-clent-test
+  application:
+    name: microservicecloud-config-clent-test
 server:
   port: 9955
   
