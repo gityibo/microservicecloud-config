@@ -1,2 +1,14 @@
-﻿server:
-  port: 8050
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-atguigu-dev
+
+---
+spring:
+  profiles: test
+  application: microservicecloud-config-atguigu-test
