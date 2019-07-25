@@ -8,7 +8,7 @@ spring:
   application:
     name: microservicecloud-config-client-dev
 server:
-  port: 8201
+  port: 3355
 
 
 
@@ -16,3 +16,6 @@ server:
 spring:
   profiles: test
   application: microservicecloud-config-clent-test
+server:
+  port: 9955
+  
