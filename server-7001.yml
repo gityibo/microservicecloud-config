@@ -20,4 +20,4 @@ spring:
   profiles: test
 
 server:
-  port: 8080
+  port: 8089
